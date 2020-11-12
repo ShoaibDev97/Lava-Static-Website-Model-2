@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("./img/bg2.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+
+.sidebar {
+  /* margin-top: 10px; */
+  /* margin-bottom: 10px; */
+  height: 100vh;
+  border-right: 1px solid #707070;
+}
+.Logo {
+  margin-top: 30px;
+}
+.slogan {
+  color: #dcdada;
+  font-size: 30px;
+  letter-spacing: 5px;
+}
+.first-nav {
+  color: #e3d9d9;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+.list-items {
+  text-decoration: none;
+  list-style-type: none;
+  color: #e3d9d9;
+
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.item {
+  padding: 15px;
+}
+
+.second-nav {
+  color: #e3d9d9;
+  margin-left: 30px;
+  margin-top: 150px;
+}
+.search-button {
+  margin-top: 20px;
+  min-width: 300px;
+  float: right;
+  background-color: #808080;
+  color: #808080;
+}
+.search-button input,
+.search-button button {
+  background-color: #808080;
+  color: #d4d0d1;
+  border: 1px solid #808080;
+}
+
+.search-button i {
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+.search-button input {
+  outline: none;
+  color: #d4d0d1;
+}
+.search-button input::placeholder {
+  color: #d4d0d1;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+}
+
+.new {
+  font-size: 17px;
+  font-weight: 500;
+  color: white;
+}
+.fortnite {
+  margin-top: 20px !important;
+  border: 1px solid #707070;
+}
+
+.fortnite-desc {
+  width: 100%;
+  background-color: #353434;
+  min-height: 250px;
+  height: 300px;
+  margin-top: 40px !important;
+  margin-left: -30px;
+  border: 1px solid #707070;
+  padding-left: 30px;
+  padding-right: 110px !important;
+}
+.div-heading {
+  margin-top: 20px;
+  color: white;
+  font-size: 22px;
+}
+
+.div-para {
+  color: #8f8d8d;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.view-more {
+  color: white;
+}
+a,
+a:hover {
+  font-weight: 500;
+  text-decoration: none;
+  color: white;
+}
+
+.pop {
+  font-size: 22px;
+}
